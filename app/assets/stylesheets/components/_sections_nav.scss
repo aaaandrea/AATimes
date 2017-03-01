@@ -1,0 +1,23 @@
+.sections-nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid lightgray;
+}
+
+.sections-nav ul {
+  display: flex;
+  // padding-left: 10px 0;
+}
+
+.sections-nav li  {
+  margin: 0 10px;
+  font-family: $sans-serif;
+  // cursor: pointer;
+}
+
+.sections-nav a {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: underline;
+  
+}
